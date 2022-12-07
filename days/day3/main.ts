@@ -4,7 +4,7 @@ import { part1, part2 } from './solution.ts';
 (async function () {
   try {
     const input = await Deno.readTextFile(
-      `${configSync().INPUT_PATH}/day3/input_test.txt`
+      `${configSync().INPUT_PATH}/day3/input.txt`
     );
 
     console.log('---- Part 1 ----');
